@@ -152,8 +152,8 @@ int opcao;
 /* Quantidade de pontos turiscos recebidos recebido*/ 
 
 /*código de cada carta*/
-codigo1[3]=estado1+1;codigo2[3]=estado2+2;codigo3[3]=estado3+3;codigo4[3]=estado4+4;
-codigo5[3]=estado5+1;codigo6[3]=estado6+2;codigo7[3]=estado7+3;codigo8[3]=estado8+4;
+/*codigo1[3]=estado1+1;codigo2[3]=estado2+2;codigo3[3]=estado3+3;codigo4[3]=estado4+4;
+codigo5[3]=estado5+1;codigo6[3]=estado6+2;codigo7[3]=estado7+3;codigo8[3]=estado8+4;*/
 /*códigos atribuidos de cada carta*/
 
 /*código de cada carta*/
@@ -162,36 +162,36 @@ printf("Digite o número da carta de 1 até 8: ");
 
            switch(opcao) {
                 case 1:
-                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta1, codigo1,estado1,cidade1);
-                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao1, área1,pib1,turismo1);                
+                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n",carta1,codigo1,estado1,cidade1);
+                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao1,área1,pib1,turismo1);                
                 break;
                 case 2:
-                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta2, codigo2,estado2,cidade2);
-                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao2, área2,pib2,turismo2); 
+                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta2,codigo2,estado2,cidade2);
+                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao2,área2,pib2,turismo2); 
                 break;
                 case 3:
-                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta3, codigo3,estado3,cidade3);
-                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao3, área3,pib3,turismo3); 
+                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n",carta3,codigo3,estado3,cidade3);
+                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao3,área3,pib3,turismo3); 
                 break;
                 case 4:
-                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta4, codigo4,estado4,cidade4);
-                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao4, área4,pib4,turismo4); 
+                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n",carta4,codigo4,estado4,cidade4);
+                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao4,área4,pib4,turismo4); 
                 break;
                 case 5:
-                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta5, codigo5,estado5,cidade5);
-                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao5, área5,pib5,turismo5); 
+                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n",carta5,codigo5,estado5,cidade5);
+                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao5,área5,pib5,turismo5); 
                 break;
                 case 6:
-                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta6, codigo6,estado6,cidade6);
+                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta6,codigo6,estado6,cidade6);
                     printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao6, área6,pib6,turismo6);
                 break;
                 case 7:
-                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta7, codigo7,estado7,cidade7);
-                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao7, área7,pib7,turismo7);
+                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta7,codigo7,estado7,cidade7);
+                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao7,área7,pib7,turismo7);
                 break;
                 case 8:
-                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta8, codigo8,estado8,cidade8);
-                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao8, área8,pib8,turismo8);
+                    printf("A carta escolinda foi:\n- Carta %d:\n- Código da carta:%s\n- Estado:%s\n- Nome da Cidade:%s\n", carta8,codigo8,estado8,cidade8);
+                    printf("População%d:\n- Área:%d\n- PIB:%d\n- Numero de pontos turisticos:%d\n", populacao8,área8,pib8,turismo8);
                 break;
         default:
             printf("\nOpção inválida. Tente novamente.\n");
@@ -201,5 +201,5 @@ printf("Digite o número da carta de 1 até 8: ");
       
 
 /*código de cada carta*/
-    return 0;
+ 
 }
