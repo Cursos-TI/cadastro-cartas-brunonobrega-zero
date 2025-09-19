@@ -16,7 +16,7 @@ int opcao;
 /* Final Atribuição do valor a carta*/
 
 /* Aviso para não utilizar espaço*/
-    printf("Caso utilize nomes compostos não utilizar espaço, utilizar undeline ou hifen");
+    printf("Caso utilize nomes compostos não utilizar espaço, utilizar undeline ou hifen"\n);
 /* fim do aviso*/
 
 /* recebendo o nome das cidades*/ 
